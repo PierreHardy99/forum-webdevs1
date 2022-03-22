@@ -1,0 +1,11 @@
+/*Created 22/03/22*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.navLeft {
+    border : 1px solid black;
+    background-color: grey;
+    
+}
