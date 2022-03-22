@@ -20,7 +20,6 @@
                 <li><a href="#">login</a></li>
             </ul>
         </nav>
-        
     </header>
     <main>
         <div class="navLeft">
