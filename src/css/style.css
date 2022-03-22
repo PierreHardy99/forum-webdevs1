@@ -4,3 +4,51 @@
     margin:0px;
     padding:0px;
 }
+
+/*General style*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(.25turn, black, red);
+    border: 1px solid black;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    
+}
+
+header nav ul li {
+    display: flex;
+    margin: 16px;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+#forumLogo{
+    margin: 1rem;
+}
+
+
+footer {
+    height: 10vh;
+    background: linear-gradient(.25turn, black, red);
+    border: 1px solid black;
+}

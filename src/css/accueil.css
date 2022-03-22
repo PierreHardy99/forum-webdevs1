@@ -1,41 +1,6 @@
 /*Created 22/03/22*/
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-}
-
-header {
-    align-items: center;
-    background: linear-gradient(.25turn, black, red);
-    border:1px solid black;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav ul {
-    display:flex;
-    
-}
-
-header nav ul li {
-    display:flex;
-    margin:16px;
-}
-
-header a {
-    text-decoration: none;
-    text-transform: capitalize;
-    color :white;
-}
-
-#forumLogo{
-    margin:1rem;
-}
 
 .navLeft {
     display:flex;
@@ -66,8 +31,3 @@ header a {
     transition : 0.5s;
 }
 
-footer {
-    height: 10vh;
-    background: linear-gradient(.25turn, black, red);
-    border:1px solid black;
-}
