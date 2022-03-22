@@ -7,16 +7,67 @@ body {
 
 header {
     align-items: center;
-    background-color:crimson;
+    background: linear-gradient(.25turn, black, red);
     border:1px solid black;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav ul {
     display:flex;
-    justify-content: center;
+    
 }
 
 header nav ul li {
     display:flex;
     margin:16px;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color :white;
+}
+
+#forumLogo{
+    margin:1rem;
+}
+
+.navLeft {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border : 1px solid black;
+    background-color:black;
+    height: 80vh;
+    width : 10vw;
+    border : 1px solid white;
+}
+
+.navLeft li {
+    list-style-type: none;
+    margin: 16px 0px;
+}
+
+.navLeft a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    
+}
+
+.navLeft a:hover{
+    color:darkred;
+    text-decoration:underline;
+    transition : 0.5s;
+}
+
+footer {
+    height: 10vh;
+    background: linear-gradient(.25turn, black, red);
+    border:1px solid black;
 }
