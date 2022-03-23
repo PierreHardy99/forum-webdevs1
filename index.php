@@ -1,5 +1,4 @@
 <?php 
-    $titre = "Forum Webdev1";
     require_once './src/common/template.php';
 ?>
 
