@@ -8,14 +8,13 @@
 /*General style*/
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     display: flex;
     align-items: center;
-    background: linear-gradient(.25turn, black, red);
-    border: 1px solid black;
+    background-color:black;
     height: 10vh;
     justify-content: space-between;
 }
@@ -40,15 +39,27 @@ header a {
     text-decoration: none;
     text-transform: capitalize;
     color: white;
+    
 }
 
+header a:hover{
+    text-decoration: underline;
+    color:#ffd700;
+    transition:0.5s;
+
+}
 #forumLogo{
     margin: 1rem;
 }
-
-
+main {
+    display:flex;
+}
+.main-content {
+    height:80vh;
+    width:100vw;
+    }
 footer {
     height: 10vh;
-    background: linear-gradient(.25turn, black, red);
-    border: 1px solid black;
+    background-color:black;
+    
 }
