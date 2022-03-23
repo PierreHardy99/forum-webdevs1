@@ -22,10 +22,13 @@
             // Sécu si route différent des différent switch, renvoie sur login.php
             default:
                 header('Location: ./login.php');
+                exit();
                 break;
         }
     } else {
         // si pas de route, affichage du formulaire de login
         require_once './views/login_form.html';
     }
+
+    require_once './src/common/footer.php';
 ?>
