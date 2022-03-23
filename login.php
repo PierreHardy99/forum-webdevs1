@@ -6,14 +6,16 @@
     if (isset($_GET['route'])) {
         // Tri de la route
         switch ($_GET['route']) {
+            // route Login
             case 'login':
                 // Inclure le mods/login_DB.php
                 break;
+            // route Enregistrement
             case 'signup':
                 if (isset($_POST['pseudo'])) {
                     // Inclure le mods/register_DB.php
                 } else {
-                    // Si pas de formulaire envoie, affichage du formulaire d'enregistrement
+                    // Si pas de formulaire envoié, affichage du formulaire d'enregistrement
                     require_once './views/register_form.html';
                 }
                 break;
@@ -23,7 +25,7 @@
                 break;
         }
     } else {
-        // Si rien, affichage du formulaire de login
+        // si pas de route, affichage du formulaire de login
         require_once './views/login_form.html';
     }
 ?>
