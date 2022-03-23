@@ -6,11 +6,10 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    border : 1px solid black;
     background-color:black;
     height: 80vh;
     width : 10vw;
-    border : 1px solid white;
+    
 }
 
 .navLeft li {
@@ -26,8 +25,8 @@
 }
 
 .navLeft a:hover{
-    color:darkred;
-    text-decoration:underline;
-    transition : 0.5s;
+    text-decoration: underline;
+    color:#ffd700;
+    transition:0.5s;
 }
 
