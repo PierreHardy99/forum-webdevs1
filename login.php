@@ -19,7 +19,7 @@
                     require_once './views/register_form.html';
                 }
                 break;
-            // Sécu si rien, renvoie sur Login
+            // Sécu si route différent des différent switch, renvoie sur login.php
             default:
                 header('Location: ./login.php');
                 break;
