@@ -14,9 +14,10 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color:black;
-    height: 10vh;
+    background-color:#696969;
+    height: 8vh;
     justify-content: space-between;
+    border : 1px solid white;
 }
 
 header nav {
@@ -39,14 +40,12 @@ header a {
     text-decoration: none;
     text-transform: capitalize;
     color: white;
-    
 }
 
 header a:hover{
     text-decoration: underline;
-    color:#ffd700;
+    color:black;
     transition:0.5s;
-
 }
 #forumLogo{
     margin: 1rem;
@@ -59,7 +58,36 @@ main {
     width:100vw;
     }
 footer {
-    height: 10vh;
-    background-color:black;
-    
+    height: 8vh;
+    background-color:#696969;
+    border : 1px solid white;
 }
+
+footer .social-medias {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+footer .social-medias ul {
+    display:flex;
+    justify-content:center;
+}
+
+footer .social-medias li {
+    margin:1rem;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer .social-medias a {
+    color :white;
+    text-decoration:none;
+}
+
+footer .social-medias a:hover {
+    text-decoration: underline;
+    color:black;
+    transition:0.5s;
+}
+
