@@ -1,7 +1,7 @@
 <?php 
     require_once './src/common/template.php';
 ?>
-
+<link rel="stylesheet" href="./src/css/accueil.css">
 <main>
         <div class="navLeft">
             <ul>
