@@ -1,3 +1,3 @@
 # forum-webdevs1
 
-Forum crée par Gaëtan et Pierre
+Forum en développement par Gaëtan et Pierre
